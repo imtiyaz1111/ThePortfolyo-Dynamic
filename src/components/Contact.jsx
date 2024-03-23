@@ -61,7 +61,7 @@ const Contact = () => {
                           <p className="text-white fs-4">
                             Adress <br />{" "}
                             <span className="fs-6">
-                              {contactData.about.address}
+                              nothing
                             </span>{" "}
                           </p>
                         </div>
@@ -80,7 +80,7 @@ const Contact = () => {
                           <p className="text-white fs-4">
                             Phone <br />{" "}
                             <span className="fs-6">
-                              {contactData.about.phoneNumber}
+                             62200
                             </span>{" "}
                           </p>
                         </div>
