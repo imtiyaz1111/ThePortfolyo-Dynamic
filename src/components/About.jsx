@@ -32,7 +32,7 @@ const About = () => {
           <div className="col-sm-12 col-md-12 col-lg-6 col-12">
             <figure className="abimg">
               <img
-                src={aboutData.avatar.url}
+                src="https://portfolio-image-store.s3.ap-south-1.amazonaws.com/1706283290608-n4hq7k"
                 alt=""
               />
             </figure>
