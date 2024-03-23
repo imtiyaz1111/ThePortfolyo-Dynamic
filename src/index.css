@@ -1,13 +1,366 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  background-color: hsl(219deg 48% 8%);
+}
+html{
+  scroll-behavior: smooth;
+}
+/* navbar */
+
+
+.navbar {
+  border-bottom: 2px solid  #d37bf6;
+}
+.nav-link {
+  color: white;
+  font-size: 15px;
+  font-weight: 500;
+}
+.nav-a {
+  color: white;
+  font-weight: 600;
+  text-decoration: none;
+}
+.nav-a:hover {
+  color:  #d37bf6;
+  text-decoration: underline;
+  cursor: pointer;
+}
+.navspan {
+  color:  #d37bf6;
+}
+.active {
+  color:  #d37bf6;
+}
+.nav-btn {
+  border: 2px solid  #d37bf6;
+  color: #d37bf6;
+  border-radius: 20px;
+  width: 100px;
+  background: none;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  font-weight: 600;
+}
+.nav-btn:hover {
+  background-color:  #d37bf6;
+  color: white;
+}
+.navbar-nav {
+  padding-bottom: 7px;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+/* home */
+.follw {
+  font-family: "La Belle Aurore", cursive;
+  color:  #d37bf6;
 }
+.followicon {
+  height: 30px;
+  margin: 5px;
+  color: white;
+}
+.followicon:hover {
+  color:  #d37bf6;
+}
+.lastname {
+  color:  #d37bf6;
+}
+.home-deail {
+  padding-top: 30px;
+  height: 100%;
+  width: 100%;
+}
+.main {
+  justify-content: center;
+}
+.home-deail h1 {
+  font-size: 70px;
+  color: white;
+  font-family: "La Belle Aurore", cursive;
+}
+.home-deail h2 {
+  color:  #d37bf6;
+  font-family: "La Belle Aurore", cursive;
+}
+.home-deail p {
+  color: white;
+  font-size: 20px;
+}
+.hero-btn button {
+  background-color: #d37bf6;
+  font-size: 20px;
+  font-family: "La Belle Aurore", cursive;
+  font-weight: 500;
+  color: white;
+  border-radius: 20px;
+}
+.hero-btn button:hover {
+  border: 2px solid  #d37bf6;
+  color:  #d37bf6;
+}
+
+.homeimg img {
+  margin-top: 50px;
+  margin-left: 100px;
+  border: 5px solid #d37bf6;
+  width: 80%;
+  height: 600px;
+  border-top-right-radius: 100px;
+  border-top-left-radius: 100px;
+}
+.main {
+  margin-top: 100px;
+}
+.homespan {
+  color:  #d37bf6;
+}
+.changetext{
+  color:  #d37bf6;
+}
+
+@media (max-width: 990px) {
+  
+  .homeimg  {
+   margin-right: 100px;
+   }
+   .homeimg img {
+   
+   height: 400px;
+    }
+}
+/* about */
+hr.abhar {
+  height: 5px;
+  width: 250px;
+  background-color: #d37bf6;
+  border: none;
+}
+.aboutspan{
+  color: #d37bf6;
+}
+.about {
+  padding-top: 50px;
+  color: white;
+  
+  height: 100vh;
+}
+.abspan {
+  color: #d37bf6;
+}
+.about-details  {
+  
+  align-content: center;
+  margin-top: 100px;
+}
+
+.abimg img {
+  margin-top: -50px;
+  margin-left: 100px;
+  height: 100%;
+  width: 70%;
+  border-radius: 40px;
+}
+.abimg {
+  margin-top: 100px;
+  height: 500px;
+}
+
+.aboutpage{
+padding-top: 100px;
+padding-bottom: 30px;
+background-color: rgb(0 10 45);
+}
+.abouhead{
+color:#d37bf6;
+}
+.aboutpagebtn button{
+background-color: #d37bf6;
+font-size: 20px;
+font-family: "La Belle Aurore", cursive;
+font-weight: 500;
+color: white;
+border-radius: 20px;
+}
+.aboutpagebtn button:hover{
+border: 2px solid #d37bf6;
+color: #d37bf6;
+}
+@media (max-width: 50px) {
+  .abimg img {
+    margin-left: none; 
+  }
+}
+/* services */
+.service{
+  padding-top: 50px;
+padding-bottom: 50px;
+}
+
+.card-img img{
+  height: 100%;
+  width: 100%;
+  border-radius: 30px;
+}
+/* skill */
+.skill-img{
+  display: flex;
+}
+.progress-bar {
+  background-color: #d37bf6;
+}
+.skill-img img{
+  width: 50px;
+}
+.skname{
+  margin-left: 10px;
+  margin-top: 20px;
+}
+/* contact */
+.contact {
+  padding-top: 20px;
+}
+/* .msgbts button {
+  background-color:rgb(77, 175, 255);
+  font-size: 20px;
+  font-family: "La Belle Aurore", cursive;
+  font-weight: 500;
+  color: white;
+  border-radius: 20px;
+} */
+.conspan{
+  color: #d37bf6;
+}
+/* .msgbts button:hover {
+  border: 2px solid rgb(77, 175, 255);
+  color: rgb(77, 175, 255);
+} */
+.form-control {
+  border: 2px solid white;
+  color: white;
+}
+.conpage{
+  padding-top: 100px;
+  padding-bottom: 30px;
+
+ }
+ .conhead{
+  color:#d37bf6 ;
+ }
+ .conpagebtn button{
+  background-color: #d37bf6;
+  font-size: 20px;
+  font-family: "La Belle Aurore", cursive;
+  font-weight: 500;
+  color: white;
+  border-radius: 20px;
+ }
+ .conpagebtn button:hover{
+  border: 2px solid #d37bf6;
+  color: #d37bf6;
+ }
+ .errors{
+  color: red;
+  font-weight: 700;
+ }
+ .contact-details{
+  margin-top: 70px;
+ }
+ .idel{
+  display: flex;
+}
+.contactsocialicon {
+  height: 50px;
+  margin: 5px;
+  color: #d37bf6;
+}
+ /* footer */
+ .footer {
+  margin-top: 50px;
+  border-top: 2px solid #d37bf6;
+
+}
+
+.footerbox {
+  margin-top: 50px;
+  color: white;
+}
+.footerlink li {
+  list-style: none;
+}
+.footerlink li a {
+  text-decoration: none;
+}
+
+.footerser li {
+  list-style: none;
+}
+.footerser li a {
+  text-decoration: none;
+}
+.fotersocialicon {
+  height: 50px;
+  margin: 5px;
+  color: white;
+}
+.fotersocialicon:hover {
+  
+  color: #d37bf6;
+}
+/* 
+timelines */
+.accordion-button{
+  background-color: rgb(154, 61, 190);
+  color: white;
+}
+.title{
+  color: black;
+  background-color: white;
+}
+.subtitle{
+  color: black;
+background-color: white;
+}
+.desc{
+  color: black;
+background-color: white;
+}
+/* Testimonial  */
+.review{
+  padding: 20px 10px 20px 10px;
+  border: 2px solid #d37bf6;
+  border-radius: 10px;
+  margin-bottom: 50px;
+}
+.top{
+  display: flex;
+}
+.image img{
+  width: 100px;
+  border-radius: 50px;
+  border: 5px solid #d37bf6;
+}
+.text{
+  margin-top: 20px;
+  margin-left: 10px;
+}
+.buttom{
+  margin-top: 10px;
+}
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+
+  /* Center slide text vertically */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
