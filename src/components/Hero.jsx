@@ -79,7 +79,7 @@ const Hero = () => {
             </div>
             <div className="col-sm-12 col-md-12 col-lg-6 col-12">
               <figure className="homeimg" data-aos="zoom-in">
-                <img src={userData.avatar.url} alt="vsdfsf" />
+                <img src="https://portfolio-image-store.s3.ap-south-1.amazonaws.com/1706283290608-n4hq7k" alt="vsdfsf" />
               </figure>
             </div>
           </div>
