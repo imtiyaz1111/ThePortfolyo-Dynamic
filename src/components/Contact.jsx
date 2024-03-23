@@ -61,7 +61,7 @@ const Contact = () => {
                           <p className="text-white fs-4">
                             Adress <br />{" "}
                             <span className="fs-6">
-                              nothing
+                             Los Angeles , America
                             </span>{" "}
                           </p>
                         </div>
@@ -80,7 +80,7 @@ const Contact = () => {
                           <p className="text-white fs-4">
                             Phone <br />{" "}
                             <span className="fs-6">
-                             62200
+                             +91-9212321321
                             </span>{" "}
                           </p>
                         </div>
